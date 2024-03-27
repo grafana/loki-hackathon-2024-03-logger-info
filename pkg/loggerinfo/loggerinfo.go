@@ -29,7 +29,7 @@ type LoggerInfo struct {
 	services map[string]*serviceLoggerInfo
 }
 
-const serviceNameLabel = "service"
+const serviceNameLabel = "service_name"
 
 func Push(req *logproto.PushRequest) { loggerinfo.Push(req) }
 
